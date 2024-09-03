@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3x3 Image Grid</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            width: 80%;
+            max-width: 1000px;
+        }
+        .grid-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <img src="https://ptl.ad.ekhuft.nhs.uk/docstore/Reporting_Strategy/NavImages/RPXXXXX_Scorecard.png" alt="Scorecard">
+        <img src="https://ptl.ad.ekhuft.nhs.uk/docstore/Reporting_Strategy/NavImages/RPXXXXX_Multiple_KPIs.png" alt="Multiple KPIs">
+        <img src="https://ptl.ad.ekhuft.nhs.uk/docstore/Reporting_Strategy/NavImages/RPXXXXX_Matrix.png" alt="Matrix">
+        <img src="https://ptl.ad.ekhuft.nhs.uk/docstore/Reporting_Strategy/NavImages/RPXXXXX_Single_KPI.png" alt="Single KPI">
+        <img src="https://ptl.ad.ekhuft.nhs.uk/docstore/Reporting_Strategy/NavImages/RPXXXXX_Single_Scorecard.png" alt="Single Scorecard">
+        <img src="https://ptl.ad.ekhuft.nhs.uk/docstore/Reporting_Strategy/NavImages/RPXXXXX_Quadrants.png" alt="Quadrants">
+        <img src="https://ptl.ad.ekhuft.nhs.uk/docstore/Reporting_Strategy/NavImages/RPXXXXX_MOM.png" alt="MOM">
+        <img src="https://ptl.ad.ekhuft.nhs.uk/docstore/images/plotthedots_icons/VariationIconCommonCause.png" alt="Variation Icon">
+    </div>
+</body>
+</html>
